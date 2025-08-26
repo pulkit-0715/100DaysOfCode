@@ -14,7 +14,7 @@ Simple Interest=1050, Compound Interest=1125.76
 
 Subbmition by Pulkit Singh
 Btech CS
-5990022181
+590022181
 Batch - 12
   
 */
