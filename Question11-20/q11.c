@@ -12,6 +12,11 @@ Input 2:
 Output 2:
 12 is even
 
+Subbmition by Pulkit Singh
+Btech CS
+590022181
+Batch - 12
+
 */
 #include <stdio.h>
 
