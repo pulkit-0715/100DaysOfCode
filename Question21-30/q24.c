@@ -27,12 +27,12 @@ int main(){
     float unit,bill;
     printf("Enter units\n");
     scanf("%f",&unit);
-    if(unit<100)
+    if(unit<=100)
     bill=5*unit;
-    else if(unit>=100 && unit<200)
-    bill=(6.33333)*unit;
+    else if(unit>100 && unit<200)
+    bill= 500+((unit-100)*7);
     else
-    bill = 8.8*unit;
+    bill = 500+700+((unit-200)*10);
 
     printf("Bill: %.0f",bill);
     return 0;
