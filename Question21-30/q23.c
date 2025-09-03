@@ -1,4 +1,8 @@
-/*Q23: Write a program to calculate a library fine based on late days.
+/*Q23: Write a program to calculate library fine based on late days as follows: 
+First 5 days late: ₹2/day 
+Next 5 days late: ₹4/day 
+Next 20 days days late: ₹6/day 
+More than 30 days: Membership Cancelled.
 
 Sample Test Cases:
 Input 1:
@@ -37,14 +41,8 @@ int main(){
         fine = 2*days;
     else if(days>=5&&days<10)
         fine = 4*days;
-    else if (days>=10&&days<15)
-        fine = days*4;
-    else if(days>=15&&days<20)
+    else if(days>10&&days<=20)
         fine = 6*days;
-    else if(days>=20&&days<25)
-        fine =days*8;
-    else if(days>=25&&days<30)
-        fine = days*10;
     else
       {printf("Member Ship cancelled\n");
         printf("Fine is %d",days*20);
