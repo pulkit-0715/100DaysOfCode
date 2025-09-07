@@ -20,7 +20,7 @@ Batch - 12
 #include <stdio.h>
 
 int main(){
-    int a,b,min,ct=1;
+    int a,b,min,max;
     printf("Enter two numbers");
     scanf("%d %d",&a,&b);
     if(a<0)a=-a;
@@ -42,15 +42,23 @@ int main(){
     return 0;
     }
 
+
+    
     if(a<=b)
-    min=a;
-    else
-    min=b;
-    for(int i=1;i<=min/2;i++)
     {
-        if(a%i==0&&b%i==0)
-        ct=i;
+    min=a; max=b;
     }
-    printf("HCF: %d",ct);
+    else
+    {
+    min=b; max=a;
+    }
+
+
+    while(min!=0){
+        int temp=min;
+        min=max%min;
+        max=temp;
+    }
+    printf("HCF: %d",max);
     return 0;
 }   
