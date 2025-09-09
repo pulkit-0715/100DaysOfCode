@@ -22,7 +22,7 @@ Batch - 12
 #include <stdio.h>
 
 int main(){
-    long long int n,ans=1;
+    long long int n,ans=0;
     printf("Enter a number\n");
     scanf("%lld",&n);
     long long int temp=n;
@@ -40,7 +40,7 @@ int main(){
         printf("Ans: 0");
         return 0;
       }
-        ans*=(temp%10);
+        ans+=(temp%10);
         temp/=10;
     }
 
