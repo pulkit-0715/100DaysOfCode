@@ -35,11 +35,6 @@ int main(){
     
     while (temp!=0)
     {
-         if (temp%10==0)
-      {
-        printf("Ans: 0");
-        return 0;
-      }
         ans+=(temp%10);
         temp/=10;
     }
