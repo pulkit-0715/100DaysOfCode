@@ -15,18 +15,21 @@ Approximate sum: 4.4
 
 #include <stdio.h>
 
-int main(){
-    int n ;
-    printf("Enter a number");
-    scanf("%d",&n);
-    double sum=0.0;
+int main() {
+    int n;
+    printf("Enter the number of terms: ");
+    scanf("%d", &n);
 
-    for(int i=1;i<=n+1;i++)
-    {
-        float nth = ((2*i) -1)/(2.0*i);
-        sum+=nth;
+    double sum = 0.0;
+    double current_term = 1.32; 
+
+
+    for (int i = 0; i < n; i++) {
+        sum += current_term;
+        current_term -= 0.22; 
     }
 
-    printf("Aproxx sum: %lf",sum);
+    printf("Approximate sum: %g\n", sum);
+
     return 0;
 }
