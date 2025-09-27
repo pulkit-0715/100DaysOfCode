@@ -75,11 +75,11 @@ int main(){
     for(int i=0;i<n-1;i++)
     if(diag[i]==diag[i+1])
     {
-        printf("digonal elemts are not unique");
+        printf("diagonal elements are not unique");
         return 0;
     }
 
-    printf("digonal elemts are unique");
+    printf("diagonal elements are unique");
     
     return 0;
 }
