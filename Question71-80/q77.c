@@ -59,10 +59,10 @@ int main(){
     inputsize(&n, &m);
     if(n!=m)
     {
-        printf("Array should be square matrix");
+        printf("Array should be square matrix\n");
         return 1;
     }
-    printf("Enter elements of array");
+    printf("Enter elements of array\n");
     int arr[n][m];
     inputarray(n,m,arr);
 
