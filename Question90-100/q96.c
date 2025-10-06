@@ -6,6 +6,10 @@ I love coding
 Output 1:
 I evol gnidoc
 
+Subbmition by Pulkit Singh
+Btech CS
+590022181
+Batch - 12
 */
 #include <stdio.h>
 #include <ctype.h>
