@@ -16,6 +16,10 @@ Input 3:
 Output 3:
 5,5
 
+Subbmition by Pulkit Singh
+Btech CS
+590022181
+Batch - 12
 */
 
 #include <stdio.h>
