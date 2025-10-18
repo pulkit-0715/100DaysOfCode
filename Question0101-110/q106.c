@@ -26,6 +26,10 @@ arr = [5, 4, 3, 1]
 Output 4:
 -1, -1, -1, -1
 
+Subbmition by Pulkit Singh
+Btech CS
+590022181
+Batch - 12
 */
 #include <stdio.h>
 
