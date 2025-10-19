@@ -52,7 +52,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int k;
-    printf("Enter size oft subarray\n");
+    printf("Enter size of subarray\n");
     scanf("%d",&k);
 
     maxsum(arr,n,k);
